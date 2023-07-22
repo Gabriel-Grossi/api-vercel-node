@@ -4,6 +4,9 @@ var crypto = require('crypto');
 
 const users = [
     { username: 'Usuária Teste', email: 'usuaria101@saudedamulher.com', password: `${crypto.randomUUID()}`, relatedTo: 'Usuária', accessLevel: 'sec' },
+    { username: 'Usuária Teste', email: 'usuaria101@saudedamulher.com', password: `${crypto.randomUUID()}`, relatedTo: 'Usuária', accessLevel: 'sec' },
+    { username: 'Usuária Teste', email: 'usuaria101@saudedamulher.com', password: `${crypto.randomUUID()}`, relatedTo: 'Usuária', accessLevel: 'sec' },
+    { username: 'Usuária Teste', email: 'usuaria101@saudedamulher.com', password: `${crypto.randomUUID()}`, relatedTo: 'Usuária', accessLevel: 'sec' },
     { username: 'Usuária Teste', email: 'usuaria102@saudedamulher.com', password: `${crypto.randomUUID()}`, relatedTo: 'Usuária', accessLevel: 'sec' }
 ]
 
